@@ -23,7 +23,6 @@ ul {
 }
 
 .container {
-  /* border: 1px solid red; */
   margin: 0 auto;
   max-width: 1170px;
   width: 100%;
@@ -143,6 +142,7 @@ footer a {
   display: flex;
   align-items: center;
   gap: 10px;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 768px) {
@@ -157,5 +157,23 @@ footer a {
   h1 {
     font-size: 36px;
     margin-bottom: 46px;
+  }
+  .footer-links {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 160px;
+  }
+
+  .main-section {
+    padding-top: 44px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 36px;
   }
 }

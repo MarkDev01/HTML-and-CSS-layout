@@ -176,20 +176,18 @@ footer a {
     font-size: 28px;
     margin-bottom: 36px;
   }
-}
 
-@media screen and (max-width: 390px) {
-  h1 {
-    font-size: 22px;
-    margin-bottom: 28px;
+  footer {
+    height: 140px;
   }
+
   .footer-links {
-    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-right: 24px;
   }
-  .card-title.small {
-    max-width: 100%;
-  }
-  .card-text {
-    font-size: 14px;
+
+  .footer-links li {
+    flex: 0 0 145px;
   }
 }
